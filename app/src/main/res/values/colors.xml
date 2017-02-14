@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#00A6ED</color>
+    <color name="primary_dark">#00A6ED</color>
+    <color name="accent">@color/primary</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="gray">#808080</color>
+    <color name="gray_progress_bar">#11808080</color>
+    <color name="gray_white">#F2F2F2</color>
+    <color name="home_font">#06c1ae</color>
+
+    <color name="blue">#0000ff</color>
+
+    <color name="toolbar_color">#0B294D</color>
+    <color name="font_red">#EC5051</color>
+    <color name="green">#108747</color>
+    <color name="backcolor">#10E5C9</color>
+    <color name="teal">#008080</color>
+    <color name="softgreen">#40E0D0</color>
+    <color name="tealtransparent">#88008080</color>
+    <color name="blueviolet">#8a2be2</color>
+    <color name="material_blue_500">#5677fc</color>
+    <color name="ripple">#F06292</color>
+
+    <color name="accent_pressed">#C2185B</color>
+    <color name="xxx">#6495ED</color>
+
+    <!-- togglebutton -->
+    <color name="popup_main_background">#b0000000</color>
+    <color name="choose_eara_item_press_color">#f4f4f4</color>
+    <color name="no_color">#00000000</color>
+
+    <!-- blood -->
+    <color name="blood_darker">#732219</color>
+    <color name="blood_dark">#a63124</color>
+    <color name="blood_primary">#d94130</color>
+    <color name="blood_light">#f2c4c4</color>
+    <integer-array name="blood">
+        <item>@color/blood_darker</item>
+        <item>@color/blood_dark</item>
+        <item>@color/blood_primary</item>
+        <item>@color/blood_light</item>
+    </integer-array>
+
+    <!--city_event_item-->
+    <color name="event1">#ff5e67</color>
+    <color name="event2">#faa224</color>
+    <color name="event3">#4dc7ee</color>
+    <color name="event4">#ff7ec2</color>
+    <color name="event5">#50d1bf</color>
+    <color name="event6">#ffcf2f</color>
+
+    <color name="event7">#99CC33</color>
+    <color name="event8">#FF0033</color>
+    <color name="event9">#ff5e67</color>
+
+
+    <color name="beangreen">#C7EDCC</color>
+    <color name="blurblue">#0B294D</color>
+
+    <color name="griditems_bg">#ffe8ecef</color>
+    <color name="commo_text_color">#ff333333</color>
+    <color name="line">#ffd3dde6</color>
+    <color name="rg_bottom">#76BAE7</color>
+    <color name="rg_bottom_press">#4489CA</color>
+
+    <color name="login_bg_normal">#0000A0E9</color>
+    <color name="login_bg_press">#ff5e67</color>
+
+    <color name="divider">#E5E5E5</color>
+    <color name="shadow">#AAEBEBEB</color>
+    <color name="common_bg">#FAFAFA</color>
+    <color name="content_bg">#F3F3F3</color>
+    <color name="gray_deep">#5c5c5c</color>
+    <color name="alpha_gray">#CC646464</color>
+    <color name="theme_gray">#646464</color>
+
+    <color name="defaultblue">#1296DB</color>
+    <color name="pressblue">#4682B4</color>
+    <color name="lightblue">#6FBFE9</color>
+    <color name="taobao_black">#333333</color>
+    <color name="offline_down_size">#777777</color>
+    <color name="gray_lite">#c5c5c5</color>
+</resources>

@@ -1,0 +1,85 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="card_view_margin_bottom">0dp</dimen>
+
+    <dimen name="button">14sp</dimen>
+    <!--给（图片、照片等）加说明文字-->
+    <dimen name="caption">12sp</dimen>
+    <dimen name="body">14sp</dimen>
+    <!--副标题-->
+    <dimen name="subheading">16sp</dimen>
+    <dimen name="title">20sp</dimen>
+    <dimen name="headline">24sp</dimen>
+    <dimen name="display1">34sp</dimen>
+    <dimen name="display2">45sp</dimen>
+    <dimen name="display3">56sp</dimen>
+    <dimen name="display4">112sp</dimen>
+
+    <!-- app整体边距 -->
+    <dimen name="app_margin_small">5dp</dimen>
+    <dimen name="app_margin">10dp</dimen>
+    <dimen name="app_margin_left">10dp</dimen>
+    <dimen name="app_margin_right">15dp</dimen>
+    <dimen name="app_margin_top">20dp</dimen>
+    <dimen name="app_margin_bottom">20dp</dimen>
+    <dimen name="app_cate_area_height">90dp</dimen>
+
+    <!-- 字体大小 -->
+    <dimen name="micro_small_text_size">10sp</dimen>
+    <dimen name="micro_text_size">12sp</dimen>
+    <dimen name="small_text_size">14sp</dimen>
+    <dimen name="small_middle_text_size">16sp</dimen>
+    <dimen name="medium_text_size">18sp</dimen>
+    <dimen name="medium_large_text_size">20sp</dimen>
+    <dimen name="large_text_size">22sp</dimen>
+    <!-- 四类字体大小 -->
+
+    <!-- 标题配置 -->
+    <dimen name="app_title_height">50dp</dimen>
+    <dimen name="app_title_filtrate_bar_height">40dp</dimen>
+
+    <dimen name="expand_tab_item_height">45dp</dimen>
+    <dimen name="expand_tab_eara_height">380dp</dimen>
+    <dimen name="head_bar_height">45dp</dimen>
+
+    <dimen name="parallax_image_height">180dp</dimen>
+    <dimen name="dishes_space_image_height">240dp</dimen>
+    <dimen name="tab_height">48dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+
+    <!-- 小图片-->
+    <dimen name="image_small_width">30dp</dimen>
+    <dimen name="card_radius">5dp</dimen>
+    <dimen name="train_border_width">6dip</dimen>
+
+    <dimen name="margin_5dp">5dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="margin_30dp">30dp</dimen>
+    <dimen name="margin_40dp">40dp</dimen>
+    <dimen name="margin_50dp">50dp</dimen>
+    <dimen name="margin_70dp">70dp</dimen>
+    <dimen name="margin_2dp">2dp</dimen>
+
+    <dimen name="width_25dp">25dp</dimen>
+    <dimen name="width_40dp">40dp</dimen>
+    <dimen name="width_50dp">50dp</dimen>
+    <dimen name="width_60dp">60dp</dimen>
+    <dimen name="width_70dp">70dp</dimen>
+    <dimen name="width_80dp">80dp</dimen>
+    <dimen name="width_150dp">150dp</dimen>
+    <dimen name="width_160dp">160dp</dimen>
+    <dimen name="width_100dp">100dp</dimen>
+    <dimen name="width_tablayout">200dp</dimen>
+    <dimen name="height_tablayout">32dp</dimen>
+    <dimen name="title_text_size">15sp</dimen>
+    <dimen name="font_24">12sp</dimen>
+    <dimen name="font_30">15sp</dimen>
+    <dimen name="font_32">16sp</dimen>
+    <dimen name="font_28">14sp</dimen>
+    <dimen name="font_22">11sp</dimen>
+</resources>
+

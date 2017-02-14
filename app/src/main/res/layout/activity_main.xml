@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pre_order"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray_white"
+    >
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/app_cate_area_height"
+
+        android:id="@+id/ll_car_license_inputbox_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="20dp"
+
+        android:visibility="visible"
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="输入车牌号"
+            android:textSize="26sp"
+            android:gravity="center_horizontal"
+            android:paddingBottom="15dp"
+            android:textColor="#9DA9B4"
+            />
+        <LinearLayout
+            android:id="@+id/ll_license_input_boxes_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+            <TextView
+                android:focusable="false"
+                android:id="@+id/et_car_license_inputbox1"
+                android:background="@drawable/car_license_inputbox"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:focusable="false"
+                android:id="@+id/et_car_license_inputbox2"
+                android:background="@drawable/car_license_inputbox"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:focusable="false"
+                android:id="@+id/et_car_license_inputbox3"
+                android:background="@drawable/car_license_inputbox"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:focusable="false"
+                android:id="@+id/et_car_license_inputbox4"
+                android:background="@drawable/car_license_inputbox"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:focusable="false"
+                android:id="@+id/et_car_license_inputbox5"
+                android:background="@drawable/car_license_inputbox"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:focusable="false"
+                android:id="@+id/et_car_license_inputbox6"
+                android:background="@drawable/car_license_inputbox"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:focusable="false"
+                android:id="@+id/et_car_license_inputbox7"
+                android:background="@drawable/car_license_inputbox"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/keyboard_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:paddingTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:focusableInTouchMode="true"
+            android:keyPreviewLayout="@layout/key_preview_layout"
+            android:background="#F0EFF4"
+            android:keyBackground="@drawable/bg_white_gray_selector"
+            android:keyTextColor="#5E5E5E"
+            android:shadowColor="#ffffff"
+            android:shadowRadius="0.0"
+            android:keyTextSize="18sp"
+            android:labelTextSize="18sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+
+</RelativeLayout>

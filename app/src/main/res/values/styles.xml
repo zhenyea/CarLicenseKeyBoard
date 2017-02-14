@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <!--返回或更多的按钮等图标颜色-->
+        <item name="colorControlNormal">?android:attr/textColorPrimaryInverse</item>
+
+    </style>
+    <!-- ToolBar -->
+    <style name="ToolBarStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <!-- 标题titile字体颜色 -->
+        <item name="android:textColorPrimary">#FFFFFF</item>
+    </style>
+
+</resources>
